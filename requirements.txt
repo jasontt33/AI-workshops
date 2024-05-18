@@ -1,0 +1,17 @@
+boto3
+langchain
+langchain-community 
+streamlit 
+pillow 
+faiss-cpu
+nltk
+openai
+python-dotenv
+langchain
+tiktoken
+langchain-openai
+watchdog
+sentence-transformers
+openai
+matplotlib
+langchain_community
