@@ -13,7 +13,7 @@ from creds import get_it
 
 #function to load the vectordatabase
 def load_knowledgeBase():
-        embeddings=OpenAIEmbeddings(api_key="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")
+        embeddings=OpenAIEmbeddings(api_key="sk-jasonkeygoeshere")
         DB_FAISS_PATH = './db_faiss'
         db = FAISS.load_local(DB_FAISS_PATH, embeddings, allow_dangerous_deserialization=True)
         return db
